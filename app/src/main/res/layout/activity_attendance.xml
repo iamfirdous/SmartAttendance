@@ -51,8 +51,7 @@
                     android:layout_gravity="center"
                     android:textColor="@color/colorTextBlack"
                     android:textStyle="bold"
-                    android:textSize="50sp"
-                    android:text="01"/>
+                    android:textSize="50sp" />
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -128,7 +127,7 @@
         android:layout_below="@+id/cardView1">
 
         <ListView
-            android:id="@+id/listview_attendance_report"
+            android:id="@+id/listView_attendance_report"
             android:layout_width="match_parent"
             android:layout_height="match_parent">
         </ListView>
